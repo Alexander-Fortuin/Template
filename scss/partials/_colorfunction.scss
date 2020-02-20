@@ -1,0 +1,26 @@
+// colours
+$one: #B0A1BA;
+$two: #A5B5BF;
+$three: #ABC8C7;
+$four: #B8E2C8;
+$five: #BFF0D4;
+
+//  fonts
+$headingOne: 'Righteous', cursive;
+$bigHeading: 'Special Elite', cursive;
+$basicFont: 'Bitter', serif;
+$headingTwo: 'Nova Mono', monospace;
+
+// font-family: 'Righteous', cursive;
+// font-family: 'Special Elite', cursive;
+// font-family: 'Bitter', serif;
+// font-family: 'Nova Mono', monospace;
+
+// colour gradient
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+@mixin full-gradient {
+	background: linear-gradient(to right, #B0A1BA, #A5B5BF, #ABC8C7, #B8E2C8, #BFF0D4);
+}

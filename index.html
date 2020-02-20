@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Nova+Mono|Righteous|Special+Elite" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+
+      <!-- Header Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <header>
+
+      <div id="navbar">
+        <!-- <div id="menu-center">
+          <ul>
+
+            <a href="#header"><li>Home</li></a>
+
+            <a href="#about"><li>About</li></a>
+
+            <a href="#team"><li>The Team</li></a>
+
+            <a href="#services"><li>Services</li></a>
+
+            <a href="#portfolio"><li>Our Work</li></a>
+
+          </ul>
+        </div> -->
+
+
+
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <input type="checkbox" id="nav-check">
+        <div class="nav-links">
+          <ul>
+
+            <a href="#header"><li>Home</li></a>
+
+            <a href="#about"><li>About</li></a>
+
+            <a href="#team"><li>The Team</li></a>
+
+            <a href="#services"><li>Services</li></a>
+
+            <a href="#portfolio"><li>Our Work</li></a>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <div id="header" class="section">
+        <div class="heading">
+          <h1>Website Template</h1>
+          <h2>Precious moments become precious memories.</h2>
+        </div>
+      </div>
+
+    </header>
+
+
+
+    <section>
+
+      <!-- About Section
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+      <div class="section" id="about">
+        <div class="block1">
+          <h3>About</h3>
+          <div class="line"></div>
+          <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, Neque porro quisquam est qui dolorem ipsum quia dolor.</p>
+        </div>
+        <div class="block2">
+          <h3>My Goal</h3>
+          <div class="line"></div>
+          <p>Neque porro quisquam est qui dolorem ipsum quia dolor.</p>
+        </div>
+        <div class="block3">
+          <h3>My Mission</h3>
+          <div class="line"></div>
+          <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+        </div>
+      </div>
+
+      <!-- Team Section
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="section" id="team">
+        <div class="intro">
+          <h3>Meet The Team</h3>
+          <div class="line"></div>
+
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="members">
+          <div class="member1">
+            <img class="memberImg" src="images/image1.jpg" alt="">
+            <h4>Naruto Paul</h4>
+            <p>Creative Director</p>
+          </div>
+          <div class="member2">
+            <img class="memberImg" src="images/image2.jpg" alt="">
+            <h4>Sasuke Brand</h4>
+            <p>Lead Designer</p>
+          </div>
+          <div class="member3">
+            <img class="memberImg" src="images/image1.jpg" alt="">
+            <h4>Sole Nara</h4>
+            <p>Designer</p>
+          </div>
+          <div class="member4">
+            <img class="memberImg" src="images/rain.jpg" alt="">
+            <h4>Sakura Smith</h4>
+            <p>Designer</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Services Section
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="section" id="services">
+        <div class="intro">
+          <h3>Services</h3>
+          <div class="line"></div>
+        </div>
+
+        <div class="content">
+          <div class="design">
+            <h4>Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi amet nobis repellat natus.</p>
+          </div>
+          <div class="development">
+            <h4>Development</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi amet nobis repellat natus.</p>
+          </div>
+          <div class="marketing">
+            <h4>Marketing</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi amet nobis repellat natus.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Section
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="section" id="portfolio">
+        <!-- Main Display -->
+        <div class="row">
+
+          <div class="column">
+            <img src="images/rain.jpg" width="100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" height="100%">
+          </div>
+          <div class="column">
+            <img src="images/rain2.jpg" width="100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" height="100%">
+          </div>
+          <div class="column">
+            <img src="images/rain3.jpg" width="100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" height="100%">
+          </div>
+          <div class="column">
+            <img src="images/rain4.jpg" width="100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" height="100%">
+          </div>
+          <div class="column">
+            <img src="images/rain.jpg" width="100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" height="100%">
+          </div>
+          <div class="column">
+            <img src="images/rain2.jpg" width="100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor" height="100%">
+          </div>
+          <div class="column">
+            <img src="images/rain3.jpg" width="100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor" height="100%">
+          </div>
+          <div class="column">
+            <img src="images/rain4.jpg" width="100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor" height="100%">
+          </div>
+          <div class="column">
+            <img src="images/rain.jpg" width="100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor" height="100%">
+          </div>
+          <div class="column">
+            <img src="images/rain2.jpg" width="100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor" height="100%">
+          </div>
+          <div class="column">
+            <img src="images/rain3.jpg" width="100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor" height="100%">
+          </div>
+          <div class="column">
+            <img src="images/rain4.jpg" width="100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor" height="100%">
+          </div>
+
+        </div>
+
+        <!-- Active slide -->
+        <div id="myModal" class="modal">
+
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content" height="800px">
+
+            <div class="mySlides">
+              <div class="numbertext">1 / 12</div>
+              <img src="images/rain.jpg" width="100%" height="100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 12</div>
+              <img src="images/rain2.jpg" width="100%" height="100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 12</div>
+              <img src="images/rain3.jpg" width="100%" height="100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4 / 12</div>
+              <img src="images/rain4.jpg" width="100%" height="100%">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">5 / 12</div>
+              <img src="images/rain.jpg" width="100%" height="100%">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">6 / 12</div>
+              <img src="images/rain2.jpg" width="100%" height="100%100%">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">7 / 12</div>
+              <img src="images/rain3.jpg" width="100%" height="100%">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">8 / 12</div>
+              <img src="images/rain4.jpg" width="100%" height="100%">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">9 / 12</div>
+              <img src="images/rain.jpg" width="100%" height="100%">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">10 / 12</div>
+              <img src="images/rain2.jpg" width="100%" height="100%">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">11 / 12</div>
+              <img src="images/rain3.jpg" width="100%" height="100%">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">12 / 12</div>
+              <img src="images/rain4.jpg" width="100%" height="100%">
+            </div>
+            <!-- previous and next buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#9665;</a>
+            <a class="next" onclick="plusSlides(1)">&#9655;</a>
+
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- Carousel Section
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="section" id="carousel">
+
+        <div class="box">
+          <div class="img">
+            <img src="images/rain.jpg" alt="" width="100%" height="80%">
+            <p>The first slide</p>
+          </div>
+          <div class="img">
+            <img src="images/image1.jpg" alt="" width="100%" height="80%">
+            <p>The second slide</p>
+          </div>
+          <div class="img">
+            <img src="images/image2.jpg" alt="" width="100%" height="80%">
+            <p>The third slide</p>
+          </div>
+          <!-- <div class="img">
+            <img src="images/rain4.jpg" alt="" width="100%" height="80%">
+            <p>The fourth slide</p>
+          </div> -->
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <footer>
+
+      <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eligendi debitis deserunt quam error consectetur aliquam reprehenderit? Adipisci optio, ratione, quia unde ut asperiores facilis esse dignissimos praesentium, nostrum laudantium!</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eligendi debitis deserunt quam error consectetur aliquam reprehenderit? Adipisci optio, ratione, quia unde ut asperiores facilis esse dignissimos praesentium, nostrum laudantium!</li>
+      </ul>
+
+      <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eligendi debitis deserunt quam error consectetur aliquam reprehenderit? Adipisci optio, ratione, quia unde ut asperiores facilis esse dignissimos praesentium, nostrum laudantium!</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eligendi debitis deserunt quam error consectetur aliquam reprehenderit? Adipisci optio, ratione, quia unde ut asperiores facilis esse dignissimos praesentium, nostrum laudantium!</li>
+      </ul>
+
+      <form class="" action="index.html" method="post">
+        <fieldset>
+          <legend>Contact Us</legend>
+
+          <ul>
+            <li>
+              <input type="text" name="name" value="" placeholder="Name">
+            </li>
+            <li>
+              <input type="email" name="email" value="" placeholder="E-mail">
+            </li>
+            <li>
+              <textarea name="message" rows="4" cols="12" placeholder="Message"></textarea>
+            </li>
+          </ul>
+        </fieldset>
+      </form>
+
+    </footer>
+
+  </body>
+
+  <script>
+
+  ///////////////////////////////////////////////
+        // portfolio lightbox and slider
+        function openModal() {
+        document.getElementById('myModal').style.display = "block";
+        }
+
+        function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // function currentSlide(n) {
+        // showSlides(slideIndex = n);
+        // }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+
+
+
+  </script>
+</html>
